@@ -2,8 +2,8 @@
 
 Simple function for me to compress jpg
 
-`go run main.go old.jpg new.jpg q=20`
+`go run main.go -q=10 demo.jpg new3.jpg`
 
-or built
+or after built
 
-`./main old.jpg new.jpg q=20`
+`./main -q=10 demo.jpg new2.jpg`
