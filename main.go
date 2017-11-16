@@ -6,7 +6,7 @@ import (
   "image/jpeg"
   "os"
   "flag"
-	_"fmt"
+  "fmt"
 )
 
 func main() {
@@ -23,7 +23,7 @@ func main() {
   flag.Parse()
 
   // Debug log
-  // fmt.Print(inputFile, outputFile, *quality, *width)
+  fmt.Print(inputFile, outputFile, *quality, *width)
 
   // Open input file and decode
   fImg1, _ := os.Open(inputFile)
