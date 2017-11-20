@@ -2,8 +2,7 @@
 
 Simple function for me to compress jpg
 
-`go run main.go -q=10 demo.jpg new3.jpg`
+`go run main.go -q=70 -w=400 input.jpg output.jpg`
 
-or after built
-
-`./main -q=10 demo.jpg new2.jpg`
+-q quality
+-w width
